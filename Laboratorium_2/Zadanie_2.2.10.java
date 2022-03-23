@@ -15,8 +15,8 @@ class Numbers{
         return n1+n2+n3;
     }
 
-    public int average(){
-        return (n1+n2+n3)/3;
+    public double average(){
+        return (n1+n2+n3)/3.0;
     }
 
     public int min(){
