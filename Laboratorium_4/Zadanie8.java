@@ -25,9 +25,9 @@ class Kosiarka extends Maszyna{
         System.out.println("marka: '" + marka + '\'' +
                 ", nazwa: '" + nazwa + '\'' +
                 ", pojemnoscSilnika: '" + pojemnoscSilnika + '\'' +
-                ", rodzajSilnika: " + rodzajSilnika +
-                ", czyMelekser: " + czyMelekser +
-                ", czyNaped: " + czyNaped +
+                ", rodzajSilnika: " + (rodzajSilnika == RodzajSilnika.BENZYNA ? "Benzynowy" : "Diesel") +
+                ", czyMelekser: " + (czyMelekser ? "Tak" : "Nie") +
+                ", czyNaped: " + (czyNaped ? "Tak" : "Nie") +
                 ", liczbaOstrzy: " + liczbaOstrzy);
     }
 
